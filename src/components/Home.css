@@ -1,0 +1,36 @@
+h1{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.specializations{
+  width: auto;
+  height: auto;
+  margin: 2px;
+  display: flex;
+  color: rebeccapurple;
+}
+
+img{
+  width: 260px;
+  height: 180px;
+  padding: 0px 20px;
+  margin: 0px 32px;
+}
+
+.specializations p{
+  color: rebeccapurple;
+  margin: -1px 43px;
+  font-weight: bolder;
+}
+
+.specializations p:hover{
+  color: red;
+  text-decoration: underline;
+}

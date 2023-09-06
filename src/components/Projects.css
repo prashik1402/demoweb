@@ -1,0 +1,31 @@
+.projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0 -10px;
+  }
+  
+ 
+  .projects-container::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .projects-container::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .projects-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
+  
